@@ -11,27 +11,22 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-
-
 public class ForecastFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         LinearLayout firstLinearLayout = new LinearLayout(getActivity());
-        firstLinearLayout.setBackgroundColor(0x20FF0000);
+        firstLinearLayout.setBackgroundColor(0x2000FF00);
         firstLinearLayout.setOrientation(LinearLayout.VERTICAL);
 
         TextView thursday = new TextView(getActivity());
-        thursday.setText("Thursday is stormy");
+        thursday.setText("Thursday");
 
-//        ImageView lightning = new ImageView(getActivity());
-//        lightning.setImageResource(R.drawable.lightning);
-//
 //        ImageView sunny = new ImageView(getActivity());
 //        sunny.setImageResource(R.drawable.sunny);
 //
-//        firstLinearLayout.addView(thursday);
+        firstLinearLayout.addView(thursday);
 //        firstLinearLayout.addView(lightning);
 //        firstLinearLayout.addView(sunny);
 

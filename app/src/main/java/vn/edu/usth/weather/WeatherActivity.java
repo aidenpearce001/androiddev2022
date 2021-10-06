@@ -33,7 +33,7 @@ public class WeatherActivity extends AppCompatActivity {
         super.onStop();
     }
     public void onDestroy(){
-        
+
         super.onDestroy();
     }
 }

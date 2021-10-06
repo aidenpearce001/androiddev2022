@@ -1,12 +1,16 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CBA"
-    android:orientation="horizontal" >
     tools:context=".ForecastFragment">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-</LinearLayout>
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:src="@drawable/partlycloudy"
+        android:layout_marginLeft="35px" />
+</FrameLayout>
