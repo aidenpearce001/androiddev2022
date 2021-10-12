@@ -23,12 +23,11 @@ public class ForecastFragment extends Fragment {
         TextView thursday = new TextView(getActivity());
         thursday.setText("Thursday");
 
-//        ImageView sunny = new ImageView(getActivity());
-//        sunny.setImageResource(R.drawable.sunny);
-//
+        ImageView sunny = new ImageView(getActivity());
+        sunny.setImageResource(R.drawable.sunny);
+
         firstLinearLayout.addView(thursday);
-//        firstLinearLayout.addView(lightning);
-//        firstLinearLayout.addView(sunny);
+        firstLinearLayout.addView(sunny);
 
         return firstLinearLayout;
     }
