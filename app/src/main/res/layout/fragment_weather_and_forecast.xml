@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="75px"
     tools:context=".WeatherAndForecastFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -12,5 +13,4 @@
         android:orientation="vertical"
         android:id="@+id/child_fragment_container">
     </LinearLayout>
-
 </FrameLayout>
